@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/memory_game/static/css/main.9492d2c2.chunk.css",
+    "main.js": "/memory_game/static/js/main.abb6cb34.chunk.js",
+    "main.js.map": "/memory_game/static/js/main.abb6cb34.chunk.js.map",
+    "runtime-main.js": "/memory_game/static/js/runtime-main.5e573194.js",
+    "runtime-main.js.map": "/memory_game/static/js/runtime-main.5e573194.js.map",
+    "static/js/2.c755e150.chunk.js": "/memory_game/static/js/2.c755e150.chunk.js",
+    "static/js/2.c755e150.chunk.js.map": "/memory_game/static/js/2.c755e150.chunk.js.map",
+    "static/js/3.be8a9d1c.chunk.js": "/memory_game/static/js/3.be8a9d1c.chunk.js",
+    "static/js/3.be8a9d1c.chunk.js.map": "/memory_game/static/js/3.be8a9d1c.chunk.js.map",
+    "index.html": "/memory_game/index.html",
+    "static/css/main.9492d2c2.chunk.css.map": "/memory_game/static/css/main.9492d2c2.chunk.css.map",
+    "static/js/2.c755e150.chunk.js.LICENSE.txt": "/memory_game/static/js/2.c755e150.chunk.js.LICENSE.txt",
+    "static/media/antelope.39aa2729.jpg": "/memory_game/static/media/antelope.39aa2729.jpg",
+    "static/media/buffalo.7b5ef74a.jpg": "/memory_game/static/media/buffalo.7b5ef74a.jpg",
+    "static/media/cheetah.9240922e.jpg": "/memory_game/static/media/cheetah.9240922e.jpg",
+    "static/media/elephant.7fb0ff20.jpg": "/memory_game/static/media/elephant.7fb0ff20.jpg",
+    "static/media/giraffe.15c708c1.jpg": "/memory_game/static/media/giraffe.15c708c1.jpg",
+    "static/media/gorilla.e751dfac.jpg": "/memory_game/static/media/gorilla.e751dfac.jpg",
+    "static/media/hippopotamus.7f0a6498.jpg": "/memory_game/static/media/hippopotamus.7f0a6498.jpg",
+    "static/media/lion.8522e6f9.jpg": "/memory_game/static/media/lion.8522e6f9.jpg",
+    "static/media/meerkat.901c8af8.jpg": "/memory_game/static/media/meerkat.901c8af8.jpg",
+    "static/media/rhinoceros.dd1f1c17.jpg": "/memory_game/static/media/rhinoceros.dd1f1c17.jpg",
+    "static/media/tiger.e4bdc674.jpg": "/memory_game/static/media/tiger.e4bdc674.jpg",
+    "static/media/App.css": "/memory_game/static/media/wallpaper.3649d562.jpg",
+    "static/media/zebra.f9579c1e.jpg": "/memory_game/static/media/zebra.f9579c1e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e573194.js",
+    "static/js/2.c755e150.chunk.js",
+    "static/css/main.9492d2c2.chunk.css",
+    "static/js/main.abb6cb34.chunk.js"
+  ]
+}
