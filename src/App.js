@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 import Game from "./components/Game/Game";
@@ -99,7 +99,7 @@ const App = () => {
         setWinner(true);
         setClicked([]);
         setTimeout(() => {
-          setWinner(false);;
+          setWinner(false);
         }, 3000);
 
         setScore(0);
@@ -107,7 +107,6 @@ const App = () => {
 
       // Reset game if already clicked
     } else {
-      console.log(score);
       if (score !== 12) {
         console.log("You Lose");
       } else {
@@ -117,10 +116,17 @@ const App = () => {
     }
 
     // Shuffle array
-    const newAnimals = [...animals]
+    const newAnimals = [...animals];
     shuffleArray(newAnimals);
     setAnimals(newAnimals);
   };
+
+  // Shuffle on mount
+  useEffect(() => {
+    const newAnimals = [...animals];
+    shuffleArray(newAnimals);
+    setAnimals(newAnimals);
+  }, [])
 
   // Shuffle function from internet
   const shuffleArray = (array) => {
