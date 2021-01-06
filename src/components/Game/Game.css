@@ -1,0 +1,12 @@
+.container {
+  width: 100vw;
+  background-color: rgb(223, 250, 215);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-height: calc(100vh - 142px);
+  max-width: calc(360px * 4);
+  margin: 0 auto;
+}

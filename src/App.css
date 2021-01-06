@@ -1,0 +1,48 @@
+.header {
+  width: 100vw;
+  background-color: green;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header span {
+  font-size: 2rem;
+  padding: 10px 0 0 0;
+  display: block;
+}
+
+.winner {
+  position: absolute;
+  color: red;
+  white-space: nowrap;
+  font-size: 15vw;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  animation: 2s grow ease-out;
+  -webkit-animation: 2s grow ease-out;
+  pointer-events: none;
+}
+
+@keyframes grow {
+  from {
+    font-size: 0;
+  }
+  to {
+    font-size: 15vw;
+  }
+}
