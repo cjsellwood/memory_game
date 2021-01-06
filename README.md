@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Memory Game
+A game made in react where you aim to choose the most consecutive unique animals.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
