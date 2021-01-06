@@ -126,7 +126,7 @@ const App = () => {
     const newAnimals = [...animals];
     shuffleArray(newAnimals);
     setAnimals(newAnimals);
-  }, [])
+  }, []);
 
   // Shuffle function from internet
   const shuffleArray = (array) => {
@@ -137,13 +137,14 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="App">
       {winner ? <h1 className="winner">You Win</h1> : null}
       <header className="header">
         <h1>Animal Memory Game</h1>
         <div>
           <span>
-            Score: {score} - Best: {bestScore}
+            Score: {score} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Best:{" "}
+            {bestScore}
           </span>
         </div>
       </header>
